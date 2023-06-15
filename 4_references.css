@@ -1,0 +1,45 @@
+.Refrences{
+    margin-top: 1500px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0;
+    padding: 25px;
+    width: 100%;
+    text-align: left;   
+    box-shadow: 0 -1px 1px 0 rgba(0,0,0,.16);
+}
+.ref1{
+    padding: 14px 0;
+    color: rgb(132, 132, 132);
+    font-weight: 500;
+    margin-top: 12px;
+    text-align: left;
+}
+.ref{
+    display: block;
+    text-align: start;
+    margin: 3px 0;
+}
+.ref-sp2{
+    color: rgb(86, 86, 86);
+}
+.ref-sp1{
+    color: rgb(132, 132, 132);
+    text-transform: uppercase;
+}
+.ref-tx1{
+    line-height: 16.8px;
+    font-size: 12px;
+    padding:0 5px;
+    color: rgb(86, 86, 86);
+    text-decoration: none;
+    border-right-color: rgb(51, 51, 51);
+    border-right: solid;
+    border-right-width: 1px;
+    cursor: pointer;
+    text-align: left;
+    display: inline-block;
+}

@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+.Categories{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 1px 1px 0 rgba(0,0,0,.16);
+    min-height: 112px;
+    width: 100%;
+    padding-top: 56px;
+  }
+.Categ_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1280px;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 12px 8px 12px 22px;
+}
+.last_con{
+  padding-right: 24px;
+}
+.cat-img{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.cat-img1{
+  height: 64px;
+  width: 64px;
+}
+.cat-txt{
+  white-space: nowrap;
+  position: relative;
+  cursor: pointer;
+  text-align: center;
+  font-weight: 500;
+  font-size: 14px;
+  color: rgb(33, 33, 33);
+}
+.cat-img-link{
+  text-decoration: none;
+}
+.cat-txt:hover{
+  color: #2874f0;
+}
+.cat_svg{
+  width: 5;
+  height: 8;
+  transform: rotate(-90deg);
+  margin: 0 0 0 8px;
+}
+.svg_txt{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.categories-dropdown-con{
+    position: absolute;
+    top: 101%;
+    border: none;
+    transform: translate(-43.5%, 0);
+    width:250px;
+}
+#triangle_cat{
+  position: absolute;
+  padding-top: 10px;
+  right: -10px;
+  top: -20px;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-bottom: 10px solid whitesmoke;
+}
+.submenu{
+  top: 0;
+  width:250px;
+  background-color:whitesmoke;
+  position: absolute;
+  left: 100%;
+  display: none;
+  box-shadow: 2px 3px 5px -1px rgba(0,0,0,.5);
+}
+.submenu-txt-2:hover .submenu{
+  display: block;
+}
+#first_submenu{
+  display: block;
+}
+@media(max-width:1000px) {
+  .appliances , .travel, .top_offers,.beauty, .two_wheelers{
+    display: none;
+  }
+  .Categories{
+    padding-top: 0;
+  }
+  .content{
+    padding: 0;
+    margin: 0 auto; ;
+  }
+  .cat-img1{
+    height: 100%;
+    width: 100%;
+  }
+  .cat-txt{
+    font-size: 3vw;
+  }
+  .cat_svg{
+    display: none;
+  }
+}

@@ -1,0 +1,70 @@
+.Foot{
+  display: flex;
+  text-align: left;
+  background-color: #172337;
+  padding-left: 65px;
+  padding-bottom: 40px;
+}
+.fooot{
+  line-height: 24px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  color: #878787;
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  margin-top: 35px;
+}
+.f_txt{
+  margin-bottom: 10px;
+}
+.fot_txt{
+  color: white;
+  text-decoration: none;
+}
+.fot_txt:hover{
+  text-decoration: underline;
+}
+.mail_fooot{
+  line-height: 18px;
+  display: flex;
+  flex-direction: column;
+  border-left-color: rgb(69, 77, 94);
+  border-left-style: solid;
+  border-left-width: 1px;
+  padding-left: 15px;
+}
+.regis_foot{
+  line-height: 18px;
+}
+.foot_gap{
+  width: 6%;
+}
+.bot_con{
+    border-top: solid;
+    border-top-width: 1px;
+    border-color:  rgb(69, 77, 94);
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #172337;
+    color: white;
+    font-size: 14px;
+}
+.bot_con_{
+  display: flex;
+  align-items:baseline;
+}
+.bh1{
+    padding-left: 8px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+@media(max-width:1000px) {
+  .Foot, .bot_con{
+    display: none;
+  }
+}

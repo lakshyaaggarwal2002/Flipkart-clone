@@ -1,0 +1,12 @@
+.advertisement_image{
+    display: none;
+    max-width: 100%;
+  }
+  .top_advertisement{
+    width: 100%;
+  }
+  @media(max-width: 1000px){
+    .advertisement_image{
+        display: flex;
+      }
+  }
